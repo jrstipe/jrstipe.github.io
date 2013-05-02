@@ -2,17 +2,26 @@
 body
 {
 background-image: url(http://us.123rf.com/400wm/400/400/newage/newage0906/newage090600005/4968208-groene-gras-gazon-bovenaanzicht.jpg);
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 14px;
+line-height: 20px;
+color: #333333;
 }
 header
 {
 	width: 900px;
 	margin: 20px auto 0;
 	background-color: red;
+	padding: 10px;
+}
+header h1
+{
+	color: yellow;
 }
 nav ul 
 {
 	list-style: none;
-	margin: 0 auto;
+	margin-left: 130px;
 
 }
 nav ul li 
@@ -22,11 +31,17 @@ nav ul li
 	margin-right: 10px;
 	display: inline-block;
 } 
+nav a 
+{
+	color: yellow;
+	text-decoration: none;
+	
+}
 #content
 {
 	width: 800px;
 	margin: 0 auto;
-	background-color: rgba(255, 255, 255, .5);
+	background-color: rgba(255, 255, 255, .6);
 	padding: 20px;
 
 }
@@ -45,24 +60,21 @@ text-align:center;
 }
 p
 {
-font-family:"Times New Roman";
 font-size:20px;
 text-align: center;
 }
 h2
 {
 	text-align: center;
-	font-family: "Times New Roman";
 }
 h3
 {
 	text-align: center;
-	font-family: "Times New Roman";
+
 }
 h4
 {
 	text-align: center;
-	font-family: "Times New Roman";
 }
 .clearfix
 {
@@ -75,7 +87,7 @@ div.story
 {
 	border: 1px solid white;
 	padding: 5px;
-
+	margin-bottom: 5px;
 }
 div.story img 
 {
@@ -83,14 +95,19 @@ div.story img
 	margin-right: 5px;
 	float: left;
 }
+div.story .wrapper
+{
+
+}
 div.story h4
 {
 	text-align: left;
-	float: left;
 	margin: 0px;
 }
 div.story p 
 {
 	font-style: italic;
-
+	margin: 0;
+	font-size: 13px;
+	text-align: left;
 }
