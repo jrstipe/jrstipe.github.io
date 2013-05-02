@@ -129,3 +129,12 @@ table td
 {
 	border-top:1px solid rgb(175, 167, 78);
 }
+
+/*comments*/
+
+div.comment
+{
+	border: 1px solid white;
+	padding: 5px;
+	margin-bottom: 5px;
+}
